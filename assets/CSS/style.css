@@ -1,0 +1,646 @@
+.no-gutters {
+  padding-left: 0;
+  padding-right: 0; }
+
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%; }
+
+.carousel-inner .carousel-item {
+  height: 400px !important; }
+  @media (min-width: 1200px) {
+    .carousel-inner .carousel-item {
+      height: 500px !important; } }
+  .carousel-inner .carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; }
+
+.detail-container {
+  padding: 1rem 3rem 2rem !important; }
+  @media (min-width: 576px) {
+    .detail-container {
+      margin-top: 5.8rem !important;
+      padding: 3rem 3rem 3rem 0rem !important; } }
+  .detail-container .breadcrumb-item + .breadcrumb-item::before {
+    display: inline-block;
+    padding-right: .5rem;
+    color: black;
+    content: ">"; }
+  .detail-container .breadcrumb {
+    padding: 0rem !important;
+    color: black;
+    background-color: white;
+    font-family: "Libre Franklin", sans-serif; }
+    .detail-container .breadcrumb a {
+      color: black !important; }
+  .detail-container .detail-container_description h2 {
+    font-family: "Playfair Display", serif; }
+  .detail-container .detail-container_description h3 {
+    font-family: "Playfair Display", serif;
+    font-weight: 700; }
+  .detail-container .detail-container_description p {
+    font-family: "Libre Franklin", sans-serif; }
+  @media (min-width: 992px) {
+    .detail-container .detail-container_description .estampados-container {
+      width: 350px; } }
+  .detail-container .detail-container_description .estampados-container .estampados {
+    background-color: #F4D2D0;
+    color: black;
+    padding: 1.5rem 1rem;
+    border-radius: 100%; }
+    .detail-container .detail-container_description .estampados-container .estampados p {
+      margin: 0 auto !important;
+      font-size: .8rem; }
+  .detail-container .detail-container_description h4 {
+    font-family: "Libre Franklin", sans-serif;
+    font-size: 1rem;
+    font-weight: 700; }
+  .detail-container .detail-container_description a {
+    display: inline-block;
+    background-color: #7EA0EA;
+    padding: .7rem 1.5rem !important;
+    border-radius: 2rem;
+    color: white;
+    text-decoration: none; }
+  .detail-container .detail-container_description .icon {
+    width: 20px; }
+
+.like-section {
+  background-color: #F8F8F8; }
+  .like-section h2 {
+    font-family: "Playfair Display", serif; }
+  .like-section .like-gallery-section .image-one {
+    background-image: url(../../img/cartuchera-max-botanica-azul.jpg);
+    background-position: center center;
+    background-size: cover;
+    width: 250px !important;
+    max-width: 250px !important;
+    height: 250px !important;
+    max-height: 250px !important;
+    margin: 1rem 0rem; }
+    @media (min-width: 576px) {
+      .like-section .like-gallery-section .image-one {
+        margin: 1rem 2rem; } }
+    .like-section .like-gallery-section .image-one a {
+      color: white;
+      text-decoration: none;
+      font-family: "Libre Franklin", sans-serif; }
+  .like-section .like-gallery-section .images {
+    width: 250px !important;
+    max-width: 250px !important;
+    height: 250px !important;
+    max-height: 250px !important;
+    margin: 1rem 0rem; }
+    @media (min-width: 576px) {
+      .like-section .like-gallery-section .images {
+        margin: 1rem 2rem; } }
+    .like-section .like-gallery-section .images a {
+      color: white;
+      text-decoration: none;
+      font-family: "Libre Franklin", sans-serif; }
+    .like-section .like-gallery-section .images img {
+      object-fit: cover;
+      width: 250px !important;
+      max-width: 250px !important;
+      height: 250px !important;
+      max-height: 250px !important; }
+  .like-section .like-gallery-section .image-three {
+    background-image: url(../../img/funda-mate.jpg);
+    background-position: center center;
+    background-size: cover;
+    width: 250px !important;
+    max-width: 250px !important;
+    height: 250px !important;
+    max-height: 250px !important;
+    margin: 1rem 0rem; }
+    @media (min-width: 576px) {
+      .like-section .like-gallery-section .image-three {
+        margin: 1rem 2rem; } }
+    .like-section .like-gallery-section .image-three a {
+      color: white;
+      text-decoration: none;
+      font-family: "Libre Franklin", sans-serif; }
+
+.no-gutters {
+  padding-left: 0;
+  padding-right: 0; }
+
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%; }
+
+.breadcrumb-item + .breadcrumb-item::before {
+  display: inline-block;
+  padding-right: .5rem;
+  color: black;
+  content: ">"; }
+
+.main_categories {
+  margin-top: 5.8rem !important; }
+  .main_categories .breadcrumb_container {
+    padding: 3rem 3rem 0rem 3rem; }
+    @media (min-width: 576px) {
+      .main_categories .breadcrumb_container {
+        padding: 3rem 3rem 0rem 5rem; } }
+    .main_categories .breadcrumb_container .breadcrumb {
+      padding: 0rem !important;
+      color: black;
+      background-color: white;
+      font-family: "Libre Franklin", sans-serif; }
+      .main_categories .breadcrumb_container .breadcrumb a {
+        color: black !important; }
+  .main_categories .title_container {
+    text-align: center;
+    padding: 3rem 3rem 0rem 3rem !important;
+    font-family: "Playfair Display", serif; }
+    @media (min-width: 576px) {
+      .main_categories .title_container {
+        padding: 3rem 3rem 0rem 5rem !important;
+        text-align: left; } }
+
+@media (min-width: 992px) {
+  .gallery-container {
+    padding-left: 6rem !important; } }
+
+.gallery-container .gallery-picture-container {
+  width: 200px !important;
+  height: 200px !important;
+  max-height: 200px !important;
+  max-width: 200px !important;
+  margin: 1rem 0rem; }
+  @media (min-width: 576px) {
+    .gallery-container .gallery-picture-container {
+      margin: 1rem 0rem .5rem 3rem  !important;
+      width: 250px !important;
+      height: 250px !important;
+      max-height: 250px !important;
+      max-width: 250px !important; } }
+  @media (min-width: 992px) {
+    .gallery-container .gallery-picture-container {
+      margin: .5 1rem  !important; } }
+  .gallery-container .gallery-picture-container .gallery-picture {
+    object-fit: cover !important;
+    width: 200px;
+    height: 200px; }
+    @media (min-width: 576px) {
+      .gallery-container .gallery-picture-container .gallery-picture {
+        width: 250px;
+        height: 250px; } }
+  .gallery-container .gallery-picture-container .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #F4D2D0; }
+    .gallery-container .gallery-picture-container .overlay .text {
+      color: black;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      text-align: center; }
+      .gallery-container .gallery-picture-container .overlay .text h3 {
+        font-family: "Playfair Display", serif;
+        font-size: 1.3rem;
+        font-weight: 700; }
+      .gallery-container .gallery-picture-container .overlay .text p {
+        font-family: "Libre Franklin", sans-serif;
+        font-size: .7rem;
+        font-weight: 500; }
+  .gallery-container .gallery-picture-container :hover .overlay {
+    opacity: 0.8; }
+
+.no-gutters {
+  padding-left: 0;
+  padding-right: 0; }
+
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%; }
+
+.personalizados_container {
+  margin-top: 5.8rem;
+  background-color: #FBEFEE;
+  text-align: center; }
+  @media (min-width: 576px) {
+    .personalizados_container {
+      text-align: left; } }
+  .personalizados_container .personalizados_title_container {
+    padding: 5rem 5rem 0rem 5rem !important; }
+    @media (min-width: 992px) {
+      .personalizados_container .personalizados_title_container {
+        padding: 5rem 20rem 0rem 10rem !important; } }
+    .personalizados_container .personalizados_title_container h2 {
+      font-family: "Playfair Display", serif; }
+    .personalizados_container .personalizados_title_container hr {
+      border-top: 1px solid black; }
+  .personalizados_container .personalizados_paragraph_container {
+    padding: 1rem 5rem !important; }
+    @media (min-width: 992px) {
+      .personalizados_container .personalizados_paragraph_container {
+        padding: 1rem 10rem !important; } }
+    .personalizados_container .personalizados_paragraph_container p {
+      font-family: "Libre Franklin", sans-serif; }
+  .personalizados_container .cards_container {
+    padding: 3rem !important;
+    width: 100%; }
+    @media (min-width: 576px) {
+      .personalizados_container .cards_container {
+        padding: 1rem 0rem 3rem 1rem !important; } }
+    @media (min-width: 992px) {
+      .personalizados_container .cards_container {
+        padding-left: 10rem !important;
+        padding-right: 0rem !important; } }
+    .personalizados_container .cards_container .cards {
+      padding: 2rem 4rem !important;
+      background-color: white;
+      border: 20px solid #F4D2D0; }
+      @media (min-width: 576px) {
+        .personalizados_container .cards_container .cards {
+          padding: 2rem !important;
+          max-width: 300px !important; } }
+      @media (min-width: 992px) {
+        .personalizados_container .cards_container .cards {
+          padding: 2rem !important;
+          max-width: 250px !important; } }
+      @media (min-width: 1200px) {
+        .personalizados_container .cards_container .cards {
+          padding: 2rem !important;
+          max-width: 300px !important; } }
+      .personalizados_container .cards_container .cards h3 {
+        font-family: "Playfair Display", serif; }
+      .personalizados_container .cards_container .cards p {
+        font-family: "Libre Franklin", sans-serif; }
+      .personalizados_container .cards_container .cards h4 {
+        font-family: "Libre Franklin", sans-serif;
+        font-size: 1rem !important; }
+      .personalizados_container .cards_container .cards .icon {
+        width: 30px; }
+
+.no-gutters {
+  padding-left: 0;
+  padding-right: 0; }
+
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%; }
+
+.FAQ_title_container {
+  margin-top: 5.8rem;
+  text-align: center;
+  padding-bottom: 0 !important; }
+  @media (min-width: 576px) {
+    .FAQ_title_container {
+      text-align: left;
+      padding-right: 15rem !important; } }
+  @media (min-width: 992px) {
+    .FAQ_title_container {
+      text-align: left;
+      padding-right: 20rem !important;
+      padding-left: 10rem !important; } }
+  .FAQ_title_container h2 {
+    font-family: "Playfair Display", serif; }
+  .FAQ_title_container hr {
+    border-top: 1px solid black; }
+
+.FAQ_main_container {
+  text-align: center; }
+  @media (min-width: 576px) {
+    .FAQ_main_container {
+      text-align: center;
+      padding-right: 2rem !important; } }
+  @media (min-width: 992px) {
+    .FAQ_main_container {
+      text-align: left;
+      padding-right: 2rem !important;
+      padding-left: 10rem !important; } }
+  .FAQ_main_container h3 {
+    font-family: "Playfair Display", serif; }
+  .FAQ_main_container .cards {
+    background-color: #FBEFEE;
+    max-height: fit-content !important; }
+    @media (min-width: 576px) {
+      .FAQ_main_container .cards {
+        padding: 3rem 1rem !important;
+        max-width: 300px !important; } }
+    @media (min-width: 992px) {
+      .FAQ_main_container .cards {
+        padding: 3rem 1rem !important;
+        max-width: 250px !important; } }
+    @media (min-width: 1200px) {
+      .FAQ_main_container .cards {
+        padding: 3rem 1rem !important;
+        max-width: 350px !important; } }
+    .FAQ_main_container .cards h4 {
+      font-family: "Playfair Display", serif; }
+    .FAQ_main_container .cards h5 {
+      font-family: "Libre Franklin", sans-serif;
+      font-weight: 400; }
+    .FAQ_main_container .cards p {
+      font-family: "Libre Franklin", sans-serif; }
+    .FAQ_main_container .cards a {
+      font-family: "Libre Franklin", sans-serif;
+      color: black;
+      text-decoration: underline;
+      font-weight: 700; }
+
+.social_container {
+  background-color: #F8F8F8; }
+  .social_container h2 {
+    font-family: "Playfair Display", serif; }
+  .social_container h6 {
+    font-family: "Libre Franklin", sans-serif; }
+  .social_container p {
+    font-family: "Libre Franklin", sans-serif; }
+    .social_container p a {
+      font-weight: 700;
+      color: black; }
+  .social_container .icon {
+    width: 150px; }
+
+.no-gutters {
+  padding-left: 0;
+  padding-right: 0; }
+
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%; }
+
+.carousel-inner {
+  margin-top: 5.5rem; }
+  .carousel-inner .carousel-caption {
+    font-family: "Playfair Display", serif;
+    color: black;
+    display: none; }
+    @media (min-width: 576px) {
+      .carousel-inner .carousel-caption {
+        margin-bottom: 8rem;
+        margin-left: 18rem;
+        display: block; } }
+    @media (min-width: 992px) {
+      .carousel-inner .carousel-caption {
+        display: block;
+        margin-bottom: 12rem;
+        margin-left: 25rem; } }
+    @media (min-width: 1200px) {
+      .carousel-inner .carousel-caption {
+        display: block;
+        margin-bottom: 18rem;
+        margin-left: 32rem; } }
+    .carousel-inner .carousel-caption h1 {
+      font-size: 1rem !important;
+      font-weight: 400; }
+      @media (min-width: 576px) {
+        .carousel-inner .carousel-caption h1 {
+          font-size: 1.5rem !important; } }
+      @media (min-width: 992px) {
+        .carousel-inner .carousel-caption h1 {
+          font-size: 2rem !important; } }
+      @media (min-width: 1200px) {
+        .carousel-inner .carousel-caption h1 {
+          font-size: 2.5rem !important; } }
+    .carousel-inner .carousel-caption .carousel-link {
+      color: black !important;
+      font-family: "Libre Franklin", sans-serif;
+      font-weight: 700;
+      text-decoration: underline; }
+
+.carousel-control-next-icon {
+  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE5LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJDYXBhXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgNDkwLjggNDkwLjgiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDQ5MC44IDQ5MC44OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+DQo8cGF0aCBzdHlsZT0iZmlsbDojRjQ0MzM2OyIgZD0iTTEzNS42ODUsMy4xMjhjLTQuMjM3LTQuMDkzLTEwLjk5LTMuOTc1LTE1LjA4MywwLjI2MmMtMy45OTIsNC4xMzQtMy45OTIsMTAuNjg3LDAsMTQuODINCglsMjI3LjExNSwyMjcuMTM2TDEyMC41ODEsNDcyLjQ2MWMtNC4yMzcsNC4wOTMtNC4zNTQsMTAuODQ1LTAuMjYyLDE1LjA4M2M0LjA5Myw0LjIzNywxMC44NDUsNC4zNTQsMTUuMDgzLDAuMjYyDQoJYzAuMDg5LTAuMDg2LDAuMTc2LTAuMTczLDAuMjYyLTAuMjYybDIzNC42NjctMjM0LjY2N2M0LjE2NC00LjE2NSw0LjE2NC0xMC45MTcsMC0xNS4wODNMMTM1LjY4NSwzLjEyOHoiLz4NCjxwYXRoIGQ9Ik0xMjguMTMzLDQ5MC42OGMtNS44OTEsMC4wMTEtMTAuNjc1LTQuNzU3LTEwLjY4Ni0xMC42NDhjLTAuMDA1LTIuODQsMS4xMjMtNS41NjUsMy4xMzQtNy41NzFsMjI3LjEzNi0yMjcuMTE1DQoJTDEyMC41ODEsMTguMjMyYy00LjE3MS00LjE3MS00LjE3MS0xMC45MzMsMC0xNS4xMDRjNC4xNzEtNC4xNzEsMTAuOTMzLTQuMTcxLDE1LjEwNCwwbDIzNC42NjcsMjM0LjY2Nw0KCWM0LjE2NCw0LjE2NSw0LjE2NCwxMC45MTcsMCwxNS4wODNMMTM1LjY4NSw0ODcuNTQ0QzEzMy42ODUsNDg5LjU1MSwxMzAuOTY3LDQ5MC42OCwxMjguMTMzLDQ5MC42OHoiLz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjwvc3ZnPg0K); }
+
+.carousel-control-prev-icon {
+  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE5LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJDYXBhXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgNDkwLjc4NyA0OTAuNzg3IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA0OTAuNzg3IDQ5MC43ODc7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxwYXRoIHN0eWxlPSJmaWxsOiNGNDQzMzY7IiBkPSJNMzYyLjY3MSw0OTAuNzg3Yy0yLjgzMSwwLjAwNS01LjU0OC0xLjExNS03LjU1Mi0zLjExNUwxMjAuNDUyLDI1My4wMDYNCgljLTQuMTY0LTQuMTY1LTQuMTY0LTEwLjkxNywwLTE1LjA4M0wzNTUuMTE5LDMuMjU2YzQuMDkzLTQuMjM3LDEwLjg0NS00LjM1NCwxNS4wODMtMC4yNjJjNC4yMzcsNC4wOTMsNC4zNTQsMTAuODQ1LDAuMjYyLDE1LjA4Mw0KCWMtMC4wODYsMC4wODktMC4xNzMsMC4xNzYtMC4yNjIsMC4yNjJMMTQzLjA4NywyNDUuNDU0bDIyNy4xMzYsMjI3LjExNWM0LjE3MSw0LjE2LDQuMTc5LDEwLjkxNCwwLjAxOSwxNS4wODUNCglDMzY4LjIzNiw0ODkuNjY0LDM2NS41MTEsNDkwLjc5MiwzNjIuNjcxLDQ5MC43ODd6Ii8+DQo8cGF0aCBkPSJNMzYyLjY3MSw0OTAuNzg3Yy0yLjgzMSwwLjAwNS01LjU0OC0xLjExNS03LjU1Mi0zLjExNUwxMjAuNDUyLDI1My4wMDZjLTQuMTY0LTQuMTY1LTQuMTY0LTEwLjkxNywwLTE1LjA4M0wzNTUuMTE5LDMuMjU2DQoJYzQuMDkzLTQuMjM3LDEwLjg0NS00LjM1NCwxNS4wODMtMC4yNjJjNC4yMzcsNC4wOTMsNC4zNTQsMTAuODQ1LDAuMjYyLDE1LjA4M2MtMC4wODYsMC4wODktMC4xNzMsMC4xNzYtMC4yNjIsMC4yNjINCglMMTQzLjA4NywyNDUuNDU0bDIyNy4xMzYsMjI3LjExNWM0LjE3MSw0LjE2LDQuMTc5LDEwLjkxNCwwLjAxOSwxNS4wODVDMzY4LjIzNiw0ODkuNjY0LDM2NS41MTEsNDkwLjc5MiwzNjIuNjcxLDQ5MC43ODd6Ii8+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8L3N2Zz4NCg==); }
+
+.banner-carousel {
+  background-color: #7EA0EA;
+  color: white; }
+  .banner-carousel .banner-carousel_section1 {
+    padding: 2rem !important;
+    text-align: center; }
+    @media (min-width: 576px) {
+      .banner-carousel .banner-carousel_section1 {
+        padding: 2rem 6rem !important; } }
+    @media (min-width: 992px) {
+      .banner-carousel .banner-carousel_section1 {
+        padding: 2rem 6rem !important;
+        text-align: left; } }
+    .banner-carousel .banner-carousel_section1 h2 {
+      font-family: "Playfair Display", serif; }
+      @media (min-width: 992px) {
+        .banner-carousel .banner-carousel_section1 h2 {
+          font-size: 3rem; } }
+    .banner-carousel .banner-carousel_section1 p {
+      font-family: "Libre Franklin", sans-serif; }
+      @media (min-width: 576px) {
+        .banner-carousel .banner-carousel_section1 p {
+          margin-top: 1rem; } }
+  .banner-carousel .banner-carousel_section2 {
+    padding: 0rem 2rem 2rem !important; }
+    @media (min-width: 992px) {
+      .banner-carousel .banner-carousel_section2 {
+        padding: 2rem  !important; } }
+    .banner-carousel .banner-carousel_section2 .image-one {
+      width: 200px !important;
+      max-width: 200px !important;
+      height: 200px !important;
+      background-image: url(../../img/contenedores.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center; }
+      .banner-carousel .banner-carousel_section2 .image-one a {
+        color: white;
+        font-family: "Libre Franklin", sans-serif; }
+    .banner-carousel .banner-carousel_section2 .image-two {
+      width: 200px !important;
+      max-width: 200px !important;
+      height: 200px !important;
+      background-image: url(../../img/agenda-pediatrica.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+      margin-top: 1rem; }
+      @media (min-width: 576px) {
+        .banner-carousel .banner-carousel_section2 .image-two {
+          margin-top: 0rem; } }
+      .banner-carousel .banner-carousel_section2 .image-two a {
+        color: white;
+        font-family: "Libre Franklin", sans-serif; }
+    .banner-carousel .banner-carousel_section2 .image-three {
+      width: 200px !important;
+      max-width: 200px !important;
+      height: 200px !important;
+      background-image: url(../../img/bolsito-neceser.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+      margin-top: 1rem; }
+      @media (min-width: 576px) {
+        .banner-carousel .banner-carousel_section2 .image-three {
+          margin-top: 0rem; } }
+      .banner-carousel .banner-carousel_section2 .image-three a {
+        color: white;
+        font-family: "Libre Franklin", sans-serif; }
+
+.productos_stock h2 {
+  font-family: "Playfair Display", serif; }
+
+.productos_stock a {
+  color: black;
+  font-family: "Playfair Display", serif;
+  font-weight: 700; }
+
+.productos_stock hr {
+  border-top: 1px solid black !important; }
+
+.productos_stock .image_one_container {
+  border: 15px solid #F8F8F8 !important;
+  width: 250px;
+  max-width: 250px;
+  height: 300px;
+  max-height: 300px;
+  background-image: url(../../img/accesorio.png);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat; }
+
+.productos_stock .image_two_container {
+  border: 15px solid #F8F8F8 !important;
+  width: 250px;
+  max-width: 250px;
+  height: 300px;
+  max-height: 300px;
+  background-image: url(../../img/bolsos.png);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat; }
+
+.productos_stock .image_three_container {
+  border: 15px solid #F8F8F8 !important;
+  width: 250px;
+  max-width: 250px;
+  height: 300px;
+  max-height: 300px;
+  background-image: url(../../img/nido.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat; }
+
+.productos_stock .image_four_container {
+  border: 15px solid #F8F8F8 !important;
+  width: 250px;
+  max-width: 250px;
+  height: 300px;
+  max-height: 300px;
+  background-image: url(../../img/almohadones.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat; }
+
+.description_container {
+  padding: 2rem !important;
+  background-color: #F4D2D0; }
+  @media (min-width: 992px) {
+    .description_container {
+      padding: 3rem !important; } }
+  .description_container h2 {
+    font-family: "Playfair Display", serif; }
+  .description_container hr {
+    border-top: 1px solid black !important; }
+  .description_container p {
+    font-family: "Libre Franklin", sans-serif; }
+
+.howto_section {
+  padding: 3rem !important;
+  background-color: #FBEFEE; }
+  .howto_section h2 {
+    font-family: "Playfair Display", serif; }
+  .howto_section a {
+    display: inline-block;
+    color: black;
+    font-family: "Libre Franklin", sans-serif;
+    text-decoration: underline;
+    margin-top: 2rem;
+    font-weight: 700; }
+
+.instagram_gallery {
+  background-color: #E7ECFF; }
+  .instagram_gallery h2 {
+    font-family: "Playfair Display", serif; }
+
+footer {
+  background-color: #7EA0EA;
+  color: white;
+  text-align: center !important; }
+  @media (min-width: 576px) {
+    footer {
+      text-align: left !important; } }
+  footer h4 {
+    font-family: "Playfair Display", serif; }
+  footer p {
+    font-family: "Libre Franklin", sans-serif; }
+  footer .logo-container {
+    background-color: white;
+    padding: 2rem .5rem !important;
+    border-radius: 100%;
+    width: 150px;
+    max-width: 150px !important; }
+    footer .logo-container .logo {
+      width: 100px; }
+  footer .icon {
+    width: 20px; }
+
+.no-gutters {
+  padding-left: 0;
+  padding-right: 0; }
+
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%; }
+
+.navbar {
+  padding: .5rem 2rem !important;
+  background-color: white !important;
+  z-index: 999999 !important; }
+  .navbar .logo {
+    width: 100px; }
+  @media (min-width: 992px) {
+    .navbar .left-links {
+      padding-left: 2rem !important; } }
+  .navbar .left-links .nav-link {
+    font-family: "Libre Franklin", sans-serif;
+    color: black !important; }
+    @media (min-width: 992px) {
+      .navbar .left-links .nav-link {
+        margin-left: 2rem !important; } }
+  .navbar .left-links .dropdown .show {
+    margin-left: 2rem !important; }
+  @media (min-width: 992px) {
+    .navbar .right-links {
+      padding-right: 2rem !important;
+      margin-top: .7rem !important; } }
+  .navbar .right-links .nav-link {
+    font-family: "Libre Franklin", sans-serif;
+    color: black !important; }
+    @media (min-width: 992px) {
+      .navbar .right-links .nav-link {
+        margin-right: 2rem !important; } }
+    .navbar .right-links .nav-link .icon {
+      width: 30px; }
+
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-collapse {
+    width: 100%; } }

@@ -1,0 +1,19 @@
+$main-font: 'Playfair Display', serif;
+$secondary-font: 'Libre Franklin', sans-serif;
+$main-color: #7EA0EA;
+$secondary-color: #F4D2D0;
+$color3: #BBD0FF;
+$color4: #FBEFEE;
+$color5: #E7ECFF ;
+$color6: #F8F8F8;
+$breadcrumb-divider: quote(">");
+
+.no-gutters {
+    padding-left: 0;
+    padding-right: 0;
+}
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+}

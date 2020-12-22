@@ -1,0 +1,51 @@
+@import 'variables';
+// NAVBAR
+.navbar {
+    padding: .5rem 2rem !important;
+    background-color: white !important;
+    z-index: 999999 !important;
+    .logo {
+        width: 100px;
+    }
+    .left-links {
+        @media(min-width: 992px) {
+           padding-left: 2rem !important;
+        }
+        .nav-link {
+            font-family: $secondary-font;
+            color: black !important;
+            @media(min-width: 992px) {
+                margin-left: 2rem !important;
+            }
+        }
+        .dropdown {
+            .show {
+                margin-left: 2rem !important;
+            }
+        }
+    }
+    .right-links {
+        @media(min-width: 992px) {
+           padding-right: 2rem !important;
+           margin-top: .7rem !important;
+        }
+        .nav-link {
+            font-family: $secondary-font;
+            color: black !important;
+            @media(min-width: 992px) {
+                margin-right: 2rem !important;
+            }
+            .icon {
+                width: 30px;
+            }
+        }
+    }
+   
+}
+.navbar-expand-lg {
+    .navbar-collapse {
+        @media(min-width: 992px) {
+            width: 100%;
+        }
+    }
+}

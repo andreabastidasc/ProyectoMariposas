@@ -1,0 +1,180 @@
+@import 'Carousel';
+//PRIMER BANNER
+.banner-carousel {
+    background-color: $main-color;
+    color: white;
+    .banner-carousel_section1 {
+        padding: 2rem !important;
+        text-align: center;
+        @media(min-width: 576px) {
+            padding: 2rem 6rem !important;
+        }
+        @media(min-width: 992px) {
+            padding: 2rem 6rem !important;
+            text-align: left;
+        }
+        h2 {
+            font-family: $main-font;
+            @media(min-width: 992px) {
+                font-size: 3rem;
+            }
+        }
+        p {
+            font-family: $secondary-font;
+            @media(min-width: 576px) {
+                margin-top: 1rem;
+            }
+        }
+    }
+   .banner-carousel_section2 {
+       padding: 0rem 2rem 2rem !important;
+       @media(min-width: 992px) {
+        padding: 2rem  !important;
+        } 
+        .image-one {
+            width: 200px !important;
+            max-width: 200px !important;
+            height: 200px !important;
+            background-image: url(../../img/contenedores.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center center;
+            a {
+                color: white;
+                font-family: $secondary-font;
+            }
+        }
+        .image-two {
+            width: 200px !important;
+            max-width: 200px !important;
+            height: 200px !important;
+            background-image: url(../../img/agenda-pediatrica.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center center;
+            margin-top: 1rem;
+            @media(min-width: 576px) {
+                margin-top: 0rem;
+            }
+            a {
+                color: white;
+                font-family: $secondary-font;
+            }
+        }
+        .image-three {
+            width: 200px !important;
+            max-width: 200px !important;
+            height: 200px !important;
+            background-image: url(../../img/bolsito-neceser.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center center;
+            margin-top: 1rem;
+            @media(min-width: 576px) {
+                margin-top: 0rem;
+            }
+            a {
+                color: white;
+                font-family: $secondary-font;
+            }
+        }
+   }
+}
+//PRODUCTOS EN STOCK
+.productos_stock {
+    h2 {
+        font-family: $main-font;
+    }
+    a {
+        color: black;
+        font-family: $main-font;
+        font-weight: 700;
+    }
+    hr {
+        border-top: 1px solid black !important;
+    }
+    .image_one_container {
+        border: 15px solid #F8F8F8 !important;
+        width: 250px;
+        max-width: 250px;
+        height: 300px;
+        max-height: 300px;
+        background-image: url(../../img/accesorio.png);
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+    .image_two_container {
+        border: 15px solid #F8F8F8 !important;
+        width: 250px;
+        max-width: 250px;
+        height: 300px;
+        max-height: 300px;
+        background-image: url(../../img/bolsos.png);
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+    .image_three_container {
+        border: 15px solid #F8F8F8 !important;
+        width: 250px;
+        max-width: 250px;
+        height: 300px;
+        max-height: 300px;
+        background-image: url(../../img/nido.jpg);
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+    .image_four_container {
+        border: 15px solid #F8F8F8 !important;
+        width: 250px;
+        max-width: 250px;
+        height: 300px;
+        max-height: 300px;
+        background-image: url(../../img/almohadones.jpg);
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+}
+// DESCRIPCION BELU
+.description_container {
+    padding: 2rem !important;
+    background-color: $secondary-color;
+    @media(min-width: 992px) {
+        padding: 3rem !important;
+    }
+    h2 {
+        font-family: $main-font;
+    }
+    hr {
+        border-top: 1px solid black !important;
+    }
+    p {
+        font-family:$secondary-font ;
+    }
+}
+.howto_section {
+    padding: 3rem !important;
+    background-color: $color4;
+    h2 {
+        font-family: $main-font;
+    }
+    a {
+        display: inline-block;
+        color: black;
+        font-family: $secondary-font;
+        text-decoration: underline;
+        margin-top: 2rem;
+        font-weight: 700;
+        
+    }
+}
+// INSTAGRAM FEED
+.instagram_gallery {
+    background-color: $color5;
+    h2 {
+        font-family: $main-font;
+    }
+}

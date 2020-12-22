@@ -1,0 +1,107 @@
+@import 'variables';
+
+.breadcrumb-item+.breadcrumb-item::before {
+    display: inline-block;
+    padding-right: .5rem;
+    color: black;
+    content: ">";
+}
+
+.main_categories {
+    margin-top: 5.8rem !important;
+    .breadcrumb_container {
+        padding: 3rem 3rem 0rem 3rem;
+        @media(min-width: 576px) {
+            padding: 3rem 3rem 0rem 5rem;
+        }
+        .breadcrumb {
+            padding: 0rem !important;
+            color: black;
+            background-color: white;
+            font-family: $secondary-font;
+            a{
+                color: black !important;
+            }
+            
+        }
+    }
+    .title_container {
+        text-align: center;
+        padding: 3rem 3rem 0rem 3rem !important;
+        font-family: $main-font;
+        @media(min-width: 576px) {
+            padding: 3rem 3rem 0rem 5rem !important;
+            text-align: left;
+        }
+    }
+    
+}
+// GALERRY
+.gallery-container {
+    @media(min-width: 992px) {
+        padding-left: 6rem !important;
+    }
+    .gallery-picture-container {
+        width: 200px !important;
+        height: 200px !important;
+        max-height: 200px !important;
+        max-width: 200px !important;
+        margin: 1rem 0rem;
+        @media(min-width: 576px) {
+            margin: 1rem 0rem .5rem 3rem  !important;
+            width: 250px !important;
+            height: 250px !important;
+            max-height: 250px !important;
+            max-width: 250px !important;
+        } 
+        @media(min-width: 992px) {
+            margin: .5 1rem  !important;
+        } 
+        .gallery-picture {
+            object-fit: cover !important;
+            width: 200px;
+            height: 200px;
+            @media(min-width: 576px) {
+                width: 250px;
+                height: 250px;
+            } 
+        }
+        .overlay {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 100%;
+            width: 100%;
+            opacity: 0;
+            transition: .5s ease;
+            background-color: $secondary-color;
+            .text {
+                color: black;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                -webkit-transform: translate(-50%, -50%);
+                -ms-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%);
+                text-align: center;
+                h3 {
+                    font-family: $main-font;
+                    font-size: 1.3rem;
+                    font-weight: 700;
+                }
+                p {
+                    font-family: $secondary-font;
+                    font-size: .7rem;
+                    font-weight: 500;
+                }
+            }
+        }
+        :hover {
+            .overlay {
+                opacity: 0.8;
+            }
+        }
+    }
+}
